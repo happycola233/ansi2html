@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Console</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #b0b0b0;
+            text-underline-position: under;
+            text-underline-offset: -1px;
+        }
+        
+        pre {
+            white-space: pre-wrap; /* 自动换行 */
+            word-wrap: break-word; /* 在长单词或 URL 地址内部进行换行 */
+            font-family: 'Cascadia Mono', Consolas, 'Courier New', '黑体', '等线', '微软雅黑', monospace;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        .dim {
+            opacity: 0.5;
+        }
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        .underlined {
+            text-decoration-line: underline;
+        }
+        
+        .blinked {
+            animation: 1s steps(2, jump-none) infinite alternate blink;
+        }
+        
+        .hidden {
+            opacity: 0;
+        }
+        
+        .line-through {
+            text-decoration-line: line-through;
+        }
+        
+        .underlined.line-through {
+            text-decoration-line: underline line-through;
+        }
+        
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <pre><span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="">普通文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="bold">粗体文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="dim">弱化文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="italic">斜体文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="underlined">下划线文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="blinked">闪烁文本</span>
+<span style="color: rgb(12, 12, 12); background-color: rgb(204, 204, 204);" class="">反显文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="hidden">隐藏文本</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(12, 12, 12);" class="line-through">删除线文本</span>
+
+<span style="color: rgb(255, 0, 0); background-color: rgb(12, 12, 12);" class="">前景色：红色</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(255, 255, 0);" class="">背景色：浅黄色</span>
+
+<span style="color: rgb(255, 0, 0); background-color: rgb(12, 12, 12);" class="">真彩色前景色：红色</span>
+<span style="color: rgb(204, 204, 204); background-color: rgb(0, 255, 0);" class="">真彩色背景色：绿色</span>
+
+<span style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);" class="">前景色和背景色颜色反转</span>
+
+<span style="color: rgb(0, 153, 255); background-color: rgb(12, 12, 12);" class="underlined">带前景色青色的下划线文本</span>
+<span style="color: rgb(255, 102, 0); background-color: rgb(0, 255, 255);" class="bold italic underlined">粗体、斜体、带前景色橙色和背景色深红的下划线文本</span></pre></body></html>

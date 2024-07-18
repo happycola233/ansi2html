@@ -1,0 +1,20 @@
+[0mNormal text[0m
+[1mBold text[0m
+[2mDim text[0m
+[3mItalic text[0m
+[4mUnderlined text[0m
+[5mBlinking text[0m
+[7mInverted text[0m
+[8mHidden text[0m
+[9mStrikethrough text[0m
+
+[38;5;196mForeground color: Red[0m
+[48;5;226mBackground color: Light Yellow[0m
+
+[38;2;255;0;0mTrue color foreground: Red[0m
+[48;2;0;255;0mTrue color background: Green[0m
+
+[38;2;255;255;255;48;2;0;0;0mForeground and background colors reversed[0m
+
+[4;38;5;39mUnderlined text with foreground color: Cyan[0m
+[1;3;4;38;5;208;48;5;51mBold, italic, underlined text with foreground color: Orange and background color: Dark Red[0m
