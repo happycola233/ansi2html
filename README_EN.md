@@ -68,10 +68,10 @@ Below are examples of ANSI escape sequences and screenshots of the generated HTM
 
 ![HTML Output](res/example_output_en.png)
 
-#### Contributions
+## Contributions
 
 If you find any issues or have suggestions for improvement, please feel free to submit an issue or pull request. Your contributions are key to the advancement of this project.
 
-#### License
+## License
 
 This project is licensed under the MIT License. For more details, please refer to the `LICENSE` file.

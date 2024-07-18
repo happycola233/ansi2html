@@ -69,10 +69,10 @@ ansi2html 是一个Python程序，用于将包含ANSI转义序列的文本文件
 
 ![HTML Output](res/example_output_cn.png)
 
-#### 贡献
+## 贡献
 
 如果您发现了问题或者有改进的建议，请随时提交问题报告或者提出Pull Request。您的贡献将是这个项目进步的动力。
 
-#### 许可
+## 许可
 
 这个项目基于 MIT 许可，详细信息请参阅 `LICENSE` 文件。
